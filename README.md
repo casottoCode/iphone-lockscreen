@@ -23,6 +23,7 @@
 
 <p>Here you will find amazing projects developed with Javascript, HTML, CSS, and various modern frameworks. My goal is to help coders of all levels improve their programming skills and also assist those who are just starting in the world of software development.</p>
 
+<a href="https://www.youtube.com/@casottoCode">Youtube Channel</a>
 </br>
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=brunocasotto&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
