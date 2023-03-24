@@ -1,0 +1,197 @@
+html {
+  font-family: 'SF Pro Display', sans-serif;
+  background: linear-gradient(198deg, #04185C 0%, #307059 100%);
+  height: 842px;
+}
+
+*, *::after, *::before {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.lockscreen {
+  position: relative;
+  width: 375px;
+  height: 812px;
+  margin: 10px auto;
+  background-image: url('./images/wallpaper.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: scale(.7);
+}
+
+.lockscreen__top {
+  width: 100%;
+  height: 30px;
+  color: white;
+}
+
+.lockscreen__top .notch {
+  width: 219px;
+  height: 30px;
+  background-color: black;
+  border-radius: 0 0 30px 30px;
+  margin: 0 auto;
+}
+
+.lockscreen__top .clock {
+  position: absolute;
+  left: 30px;
+  top: 12px;
+  font-size: 15px;
+}
+
+.lockscreen__top .icons {
+  width: 66px;
+  height: 11px;
+  position: absolute;
+  right: 10px;
+  top: 16px;
+  background-image: url('./images/top_right_icon.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.lockscreen__center-block {
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.lockscreen__center-block .padlock {
+  display: block;
+  width: 23px;
+  height: 34px;
+  margin: 0 auto;
+  background-image: url('./images/padlock.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.lockscreen__center-block .clock {
+  color: white;
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: 83px;
+}
+
+.lockscreen__center-block .date {
+  color: white;
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: 22px;
+}
+
+.notifications {
+  width: 100%;
+  padding: 30px 10px 0 10px;
+}
+
+.notification__item {
+  display: flex;
+  width: 100%;
+  min-height: 60px;
+  padding: 10px;
+  border-radius: 13px;
+  background-color: rgba(38, 38, 38, 0.8);
+}
+
+.notification__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.notification-icon--app {
+  background-image: url('./images/app.png');
+}
+
+.notification-icon--person {
+  background-image: url('./images/app_person.png');
+}
+
+.notification-icon {
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 20px;
+}
+
+.notification-info {
+  flex: 1;
+  position: relative;
+  color: white;
+  font-size: 13px;
+}
+
+.notification-title,
+.notification-text {
+  display: block;
+}
+
+.notification-title {
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.notification-time {
+  position: absolute;
+  top: 2px;
+  right: 0;
+  color: #a0a0a7;
+}
+
+.btn-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 50px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border-style: none;
+  background-color: #f5f5f526;
+}
+
+.btn-bottom--camera {
+  right: 40px;
+}
+
+.btn-bottom--flashlight {
+  left: 40px;
+}
+
+.camera, .flashlight {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.camera {
+  display: block;
+  width: 25px;
+  height: 19px;
+  background-image: url('./images/camera.png');
+}
+
+.flashlight {
+  display: block;
+  width: 10px;
+  height: 22px;
+  background-image: url('./images/flashlight.png');
+}
+
+
+.lockscreen-bottom-bar {
+  position: absolute;
+  bottom: 8px;
+  width: 134px;
+  height: 5px;
+  background-color: white;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 3px;
+}
