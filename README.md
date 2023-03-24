@@ -14,7 +14,7 @@
 <img align="center"
   src="https://github.com/casottoCode/iphone-lockscreen/blob/main/Thumb.png"
   alt="Iphone lockscreen video thumb"
-  style="width:400px;height:100%;"
+  style="width:100%;height:100%;"
 />
 </a>
 
