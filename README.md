@@ -9,7 +9,14 @@
 </a>
 
 <h1 align="center"><strong>Code HTML CSS Iphone Lockscreen Clone</strong></h1>
-<a href="https://youtu.be/mpCEBeBCguk"><h2>Youtube Video</h2></a>
+
+<a href="https://youtu.be/mpCEBeBCguk">
+<img align="center"
+  src="https://github.com/casottoCode/iphone-lockscreen/blob/main/Thumb.png"
+  alt="Iphone lockscreen video thumb"
+  style="width:400px;height:100%;"
+/>
+</a>
 
 
 <h1 align="center"><strong>CasCode</strong></h1>
